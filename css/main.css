@@ -1,3 +1,29 @@
+/*Медиа-запросы*/
+
+@media (min-width: 576px) {
+	#if-mobile {
+	display: block;
+	color: black;
+}
+
+#fullpage {
+	display: none;
+}
+}
+
+@media (min-width: 992px) { 
+	#fullpage {
+		display: block;
+	}
+	#if-mobile {
+		display: none;
+	}
+}
+
+
+
+
+
 html {
 	min-height: 100%;
 }
@@ -18,7 +44,7 @@ section {
 
 section p {
 	text-align: justify;
-	font-size: 38px;
+	font-size: 32px;
 	margin: 0;
 	text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
   -webkit-background-clip: text;
@@ -36,7 +62,7 @@ section p:last-of-type {
 }
 
 #title h1 {
-	font-size: 72px !important;
+	font-size: 62px !important;
 	text-align: center;
 	text-shadow: 0px 2px 3px rgba(0,0,0,0.5);
   -webkit-background-clip: text;
